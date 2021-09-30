@@ -21,7 +21,7 @@ public class BaseIT {
     @Autowired
     WebApplicationContext wac; // application context in the spring environment -> gives us the spring security filters
 
-    MockMvc mockMvc;
+    public MockMvc mockMvc;
 
     @MockBean // creates a spring mock bean in the spring context
     BeerRepository beerRepository;
